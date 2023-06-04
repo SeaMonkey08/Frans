@@ -1,6 +1,6 @@
 import random
 
-file = open ('Het eten.txt','r')
+file = open ('woorden.2.txt','r')
 
 score = 0
 aantalGesteldeVragen = 0
@@ -37,8 +37,6 @@ while ondervragen:
             print ("                             Goed zo")
             print("——————————————————————————————————————————")
             score += 1 
-            woordenFrans.remove(fr)
-            woordenNederlands.remove(woordenNederlands[willekeurig])
 
         else:
             print (woordenFrans[willekeurig] + "                      Dat kan beter")
@@ -46,12 +44,8 @@ while ondervragen:
         
         aantalGesteldeVragen += 1
 
-        if aantalGesteldeVragen == daantalVragen or bool(woordenFrans):
-            resultaat = round((score/ aantalGesteldeVragen)* 100)
-            bericht = str(score)+"/"+str(aantalGesteldeVragen) + " => " + str(resultaat) + "%"
-            print(bericht)
-        if fr == "Quit" or fr == "quit":
-            ondervragen == False
+        if aantalGesteldeVragen == daantalVragen:
             resultaat = round((score/ daantalVragen)* 100)
             bericht = str(score)+"/"+str(daantalVragen) + " => " + str(resultaat) + "%"
             print(bericht)
+    break

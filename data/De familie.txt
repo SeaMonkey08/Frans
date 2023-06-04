@@ -1,18 +1,16 @@
+De horloge,L'horloge
 De puber,L'ado
-De puberteit,L'adolescence
+De puberteit,L'adolescent
 De volwassene,L'adulte
-De schoonbroer, Le beau frere
 De schoonzoon,Le beau-fils
-De schoonvader,Le beau-pere
+De schoonvader,Le beau-père
 De schoonouders,Les beaux-parents
-De schoonmoeder,La belle-mere
+De schoonmoeder,La belle-mère
 De schoondochter,La belle-fille
-De schoonzus,La belle-soeur
+De schoonzus,La belle-soeure
 De jonste,le cadet
 Het koppel,Le couple
 De neef,Le cousin
 De nicht,La cousine
 Het enig kind,L'enfant unique
-De kindertijd,L'enfance
-De halfbroer, Le demi-frere
-De halfzus, La demi-soeur
+De kindertijd,L'enfanceDe pubertijd,L'adolesence
