@@ -5,3 +5,7 @@ for text in file:
     print("Nederlands: " + w[0])
     print("Frans: " + w[1])
 file.close()
+
+
+
+str('Hallo')

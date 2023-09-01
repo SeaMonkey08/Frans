@@ -1,17 +1,30 @@
 from decimal import *
 
-i = 3
+nieuwe = True
+invullen = False
 
-while True:
-    aantal = input('hoeveel woorden? ')
+while nieuwe:
+    print('nieuwe lijst -> 1')
+    print('bestaande lijst aanvullen -> 2')
+    nieuw = input('wat van bovenstaande wil je uitvoeren?  ')
+    if nieuw == '1':
+        nieuwe = False
+        invullen = True  
+    if nieuw == '2':
+        print('')
+        print('tourisme')
+        print('')
+        nieuwe = False
+        invullen = True
+while invullen:
+    title = input('title van de lijst:  ')
+    aantal = input('hoeveel woorden wil je in de lijst '  + title + ' toevoegen? ')
     dAantal = int(aantal)
     for i in range(dAantal):
         fr = input ('verbe français svp:    ')
         nl = input('nederlands woord aub:   ')
         print(fr)
-        #file = open('woorden.2.txt','w')     #w = write = nieuw bestand aanmaken over het bastaande
-        file = open('woorden.2.txt','a')      #a = append(toevoegen) = toevoegen aan het einde van het bestand
-        #file.write("{nl},{fr}") 
+        file = open('./data/' + title + '.txt','a')
         file.write(nl)
         file.write(',')
         file.write(fr)

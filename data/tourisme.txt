@@ -1,0 +1,84 @@
+de leuze,la devise
+de blauw-wit-rode vlag,le drapeau bleu blanc rouge
+de Franse driekleur,la drapeau tricolore
+de staat,l'État
+de nationale feestdag,la fête nationale
+de regering,le gouvernement
+het volkslied,l'hymne national
+vrijheid gelijkheid broederschap,liberté égalité fraternité
+Marianne,marianne
+de Marseillaise,la Marseilleaise
+de presidente,la présidente
+de koningin,la reine
+de republiek,la république
+de revolutie,la révolution
+de koning,le roi
+het koninkrijk,le royaume 
+het teken,le signe
+het symbool,le symbole
+de baai,la baie
+het platteland,la campagne
+de waterval,la cascade 
+de heuvel,la colline
+de kust,le côte
+de woestijn,le désert
+de duin,la dune
+de vijver,l'étang
+de klif,la falaise
+de stroom,le fleuve
+de rotskloof,les gorges
+het eiland,l'île
+het meer,le lac
+de zee,le mer
+de berg,la montagne
+de mont Blanc,le mont blanc
+het uitzicht,le point de vue
+de rivier,la rivière
+de rots,la roche 
+de rots,le rocher
+het pad,le sentier
+de bergtop,le sommet
+de bron,la source
+de vallei,la vallée
+de volkaan,le volcan
+de buitenwijk,la banlieue
+de hoofdstad,la capitale
+de gemeente,la commune
+het departement,le département
+het overzeese departement,le D.O.M.
+de zeshoek,l'hexagone
+het stadshuis,l'hôtel de ville
+het stadshuis,la mairie
+de regio,la région
+de stad,la ville
+de jeugdherberg,l'auberge de jeunesse
+de autosnelweg,l'autoroute
+de camping,le camping
+de gastenkamer,la chambre d'hôtes
+de weg,le chemin
+de ster,l'étoile
+de excursie,l'excursion
+de vakantiewoning,le gîte
+de Michelingids,le guide michelin
+de dienst voor tourisme,l'officede tourisme
+het verkeerdsbord,le panneau
+de tol,le péage
+de wandelinh,la promenade
+de tocht,la randonnée
+de departementale weg,la route d�partementale (RD ou D)
+de nationale weg,la route nationale (RN ou N)
+naar het buitenland,à l'étranger
+het Zuiden van Frankrijk,le midi
+het aperitief,l'apéro
+het stokbrood,la baguette
+de bouillabaisse,la bouillabaisse
+de schotel op basis van zuurkool,la choucroute
+de schaaldieren,les crustacés
+de slakken,les escarots
+het dunne stokbrood,la ficelle
+de Provençaalse kruiden,les herbes de Provence
+de olijfolie,l'huile d'olive
+het streekproduct,le produit du terroir
+de ratatouille,la ratatouille
+de rijdt,le riz
+de tartflette,la tartflette

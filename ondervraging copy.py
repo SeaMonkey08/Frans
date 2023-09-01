@@ -1,7 +1,5 @@
 import random
 
-file = open ('woorden.2.txt','r')
-
 score = 0
 aantalGesteldeVragen = 0
 woordenNederlands = []
@@ -9,7 +7,14 @@ woordenFrans = []
 ondervragen = False
 aantalVragenInFile = 0
 
-while file:
+print("1. De familie")
+print("2. Het eten")
+fileKeuze = input("Welke woordenlijst wil je inoefenen? ")
+if fileKeuze == "1":
+    file = open('data\De familie','r')
+if fileKeuze == "2":
+    file = open('data\Het eten.txt','r')
+while file:   
     for text in file:
         w = text.split(",")
         woordenNederlands.append(w[0])
@@ -37,6 +42,8 @@ while ondervragen:
             print ("                             Goed zo")
             print("——————————————————————————————————————————")
             score += 1 
+            woordenFrans.remove(fr)
+            woordenNederlands.remove(woordenNederlands[willekeurig])
 
         else:
             print (woordenFrans[willekeurig] + "                      Dat kan beter")
@@ -44,8 +51,12 @@ while ondervragen:
         
         aantalGesteldeVragen += 1
 
-        if aantalGesteldeVragen == daantalVragen:
+        if aantalGesteldeVragen == daantalVragen or bool(woordenFrans):
+            resultaat = round((score/ aantalGesteldeVragen)* 100)
+            bericht = str(score)+"/"+str(aantalGesteldeVragen) + " => " + str(resultaat) + "%"
+            print(bericht)
+        if fr == "Quit" or fr == "quit":
+            ondervragen == False
             resultaat = round((score/ daantalVragen)* 100)
             bericht = str(score)+"/"+str(daantalVragen) + " => " + str(resultaat) + "%"
             print(bericht)
-    break

@@ -1,6 +1,6 @@
 import random
 
-file = open ('Het eten.txt','r')
+fileHandle = open ('Het eten.txt','r')
 
 score = 0
 aantalGesteldeVragen = 0
@@ -9,20 +9,20 @@ woordenFrans = []
 ondervragen = False
 aantalVragenInFile = 0
 
-while file:
-    for text in file:
+while fileHandle:
+    for text in fileHandle:
         w = text.split(",")
         woordenNederlands.append(w[0])
         woordenFrans.append(w[1].replace("\n", "")) 
         aantalVragenInFile += 1
-    file.close
+    fileHandle.close
     print("------------------------------------------------")
     print("Maximum aantal vragen = " + str(aantalVragenInFile))
     print("------------------------------------------------")
     aantalVragen = input("Hoeveel vragen mag ik u stellen? ")
     daantalVragen = int(aantalVragen)
     ondervragen = True 
-    file = False   
+    fileHandle = False   
 
 while ondervragen: 
     for i in range(daantalVragen):
